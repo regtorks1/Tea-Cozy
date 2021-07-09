@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+}
+
+.tea_logo {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index:1;
+     overflow: hidden
+}
+
+.Logo {
+    height:50px;
+    margin-left: 10px;
+}
+
+nav a {
+    position:relative;
+    left: 60%;
+    top: -20px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.tea_cup {
+    margin: 60px;
+}
+
+
+.background_img {
+       height: 700px;
+       width: 1200px;
+       margin-top: 1px;
+       position: relative;
+       left: 10px;
+}
+.header {
+    background-color:black;
+    position: relative;
+    top: -500px;
+}
+
+ .header h2 { 
+     display: flex;
+    justify-content: center;
+} 
+
+ .header h4{
+      display: flex;
+     justify-content: center; 
+ } 
+
+ .main h2 {
+     display: flex;
+     justify-content: center;
+ }
+
+ .main h4 {
+       display: flex;
+       justify-content: center;
+ }
+
+ .main_img {
+     width: 1000px;
+     margin-right: auto;
+     margin-left: auto;
+     max-height: 560px;    
+ }
+
+ .main_img img {
+     height: 200px;
+     width: 300px;
+        
+ }
+
+ .main_img .second_image{
+     position: relative;
+     left: 350px;
+     top: -232px;
+ }
+
+ .main_img .third_image {
+     position: relative;
+     left: 698px;
+     top: -464px;
+ }
+
+ .main_img .fourth_image {
+       position: relative;
+       left: 150px;
+       top: -400px;
+ }
+
+ .main_img .fifth_image {
+       position: relative;
+       left: 520px;
+       top: -632px;
+ }
+
+ .footer_image img {
+     width: 1200px;
+     height: 500px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     
+ }
+
+ .footer_image h2 {
+     position: relative;
+     top: -450px;
+     left: 600px;
+ }
+
+ .first_location {
+     background-color: black;
+     width: 300px;
+     position: relative;
+     top: -445px;
+     left: 140px;
+     padding: 5px;
+     text-align: center;
+ }
+
+
+ .second_location {
+    background-color: black;
+    width: 300px;
+    position: relative;
+    top: -685px;
+    left: 520px;
+    padding: 5px;
+    text-align: center;
+ }
+
+ .third_location {
+    background-color: black;
+    width: 300px;
+    position: relative;
+    top: -925px;
+    left: 900px;
+    padding: 5px;
+    text-align: center;
+ }
+
+ .footer_image {
+    max-height: 510px;   
+}
+
+.company{
+    max-height: 200px;
+}
+
+ .company h2 {
+    text-align: center;   
+ }
+ 
+ .company h5{
+     text-align: center;
+ }
+
+ .company p{
+      text-align: center;
+      margin-top: 50px;
+ }
+
+ .last{
+     margin-top: 150px;
+     margin-left: 20px;
+ }
+
+
+
+ 
+ 
+
+
+
+
